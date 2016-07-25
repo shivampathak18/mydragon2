@@ -1,0 +1,33 @@
+{
+  "name": "sc-auth",
+  "version": "1.0.0",
+  "description": "SocialCops Authentication: Accepts Oath2/Email-Password",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/lab/bin/lab -c -L",
+    "test-cover": "./node_modules/lab/bin/lab -c -r html -o ./test/artifacts/coverage.html && open ./test/artifacts/coverage.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "Shivam <shivam@socialcops.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "hapi": "^8.2.0",
+    "code": "^1.3.0",
+    "lab": "^5.4.0"
+  },
+  "dependencies": {
+    "bell": "^2.2.0",
+    "hapi": "^8.4.0",
+    "lab": "^5.5.0"
+  }
+}

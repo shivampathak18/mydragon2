@@ -1,0 +1,17 @@
+{
+  "name": "data",
+  "version": "0.0.0",
+  "dependencies": {
+		"hapi": "*",
+		"joi": "*",
+		"boom": "*",
+		"underscore": "*"
+	},
+	"devDependencies": {
+		"lab": "*"
+	},
+	"scripts": {
+		"start": "node server.js",
+		"test": "lab ./modules"
+	}
+}
